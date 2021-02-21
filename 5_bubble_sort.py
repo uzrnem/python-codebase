@@ -1,4 +1,4 @@
-def bubbleSort(arr):
+def bubble_sort(arr):
     n = len(arr)
     for i in range(n-1):
         for j in range(0, n - i - 1):
@@ -7,6 +7,6 @@ def bubbleSort(arr):
 
 arr = [64, 34, 25, 12, 22, 11, 90]
 
-bubbleSort(arr)
+bubble_sort(arr)
 
 print ("Sorted array is:", arr)
