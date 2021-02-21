@@ -1,3 +1,8 @@
+"""
+This is code written by Bhagyesh Sunil Patel
+on Feb 21nd, 2021
+For Selection Sort
+"""
 def selection_sort(array):
     for c in range(len(array) - 1):
         min_pos = c
